@@ -1,0 +1,28 @@
+{
+  "name": "mysql-grader",
+  "version": "1.0.0",
+  "description": "Grade simple MySQL queries against their solution queries by comparing results",
+  "main": "bin/mysql-grader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mysql-grader": "./bin/mysql-grader.js"
+  },
+  "keywords": [],
+  "author": "Braden Hitchcock <developer.hitchcock@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradenhc/mysql-grader.git"
+  },
+  "files": [
+    "src/index.js",
+    "bin/mysql-grader.js"
+  ],
+  "dependencies": {
+    "commander": "^4.0.0",
+    "lodash": "^4.17.15",
+    "mysql": "^2.17.1"
+  }
+}

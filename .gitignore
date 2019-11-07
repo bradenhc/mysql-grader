@@ -1,0 +1,8 @@
+.vscode/
+
+*.sql
+*.csv
+*.log
+config.*
+
+node_modules/
